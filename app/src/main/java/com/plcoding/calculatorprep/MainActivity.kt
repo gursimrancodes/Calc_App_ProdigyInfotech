@@ -246,6 +246,7 @@ class MainActivity : ComponentActivity() {
                                 viewModel.onAction(CalculatorAction.Calculate)
                             }
                         }
+
                     }
                 }
             }

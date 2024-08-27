@@ -17,6 +17,7 @@ class CalculatorViewModel: ViewModel() {
             is CalculatorAction.Operation -> enterOperation(action.operation)
             is CalculatorAction.Decimal -> enterDecimal()
             is CalculatorAction.Calculate -> calculate()
+
         }
     }
 
